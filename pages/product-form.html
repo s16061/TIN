@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ViShop</title>
+</head>
+<body>
+    <header>
+        <h1>ViShop</h1>
+        <img src="../images/logo.png" alt="ViShop Logo">
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="../pages/product-list.html">Lista produktów</a></li>
+            <li><a href="../pages/cart.html">Koszyk</a></li>
+            <li><a href="../pages/myaccount.html">Moje konto</a></li>
+            <li><a href="../pages/product-form.html"  class="active">Formularz dodania nowego konta</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Dodawanie nowego produktu</h2>
+
+        <form>
+            
+                <label for="productName">Nazwa produktu<abbr title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="productName" id="productName">
+            
+                <label for="description">Opis produktu</label>
+                <input type="text" name="description" id="description">
+            
+                <label for="price">Cena produktu<abbr title="required" aria-label="required">*</abbr></label>
+                <input type="number" name="price" id="price">
+            
+                <input type="submit" value="Dodaj" class="button-add"/>
+                <a href="../pages/product-list.html">Anuluj</a>
+        </form>
+    </main>
+
+    <footer>
+        Michał Karczmarczyk s16061
+    </footer>
+
+    
+</body>
+</html>
